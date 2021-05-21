@@ -1,0 +1,257 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 44px;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+main {
+    width: 982px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.number {
+    color: orange;
+}
+
+/* 悬浮条 */
+
+#floating_title {
+    float: left;
+    width: 300px;
+    padding: 8px 0 0 50px;
+    color: white;
+}
+
+#floating_user {
+    padding-right: 50px;
+    float: right;
+    width: 106px;
+    height: 36px;
+    font-size: 12px;
+}
+
+#user_name {
+    float: right;
+    line-height: 40px;
+    color: #ddd;
+    right: 10px;
+}
+
+.avatar {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top: 5px;
+    left: 15px;
+    border-radius: 15px;
+}
+
+/* 首页标题 */
+
+.banner {
+    width: 982px;
+    height: 180px;
+}
+
+#card_top {
+    background-color: #f2f4f7;
+    border-top: 1px solid #e9ebf0;
+    width: 982px;
+    height: 89px;
+    display: block;
+}
+
+#card_top_left {
+    width: 300px;
+    height: 60px;
+    position: relative;
+    margin: 18px 0 0 20px;
+    float: left;
+}
+
+#title {
+    font-size: 20px;
+}
+
+#title_slogan {
+    font-size: 14px;
+    line-height: 35px;
+    color: #4c4c4c;
+}
+
+#card_top_right {
+    float: right;
+    margin: 15px 20px 0 0;
+}
+
+.sign {
+    width: 180px;
+    height: 50px;
+    background-color: ghostwhite;
+    border-radius: 2px;
+}
+
+#sign_btn {
+    float: left;
+    width: 90px;
+    height: 48px;
+    background-color: #2d64b3;
+    color: white;
+    text-align: center;
+    border-radius: 2px;
+    line-height: 48px;
+    margin: 1px;
+    font-size: 24px;
+}
+
+#sign_status {
+    float: right;
+    font-size: 14px;
+    text-align: left;
+    height: 50px;
+    padding-right: 15px;
+    margin-top: 6px;
+}
+
+/* 导航栏 */
+
+#nav_bar {
+    width: 980px;
+    height: 46px;
+    background-color: #edeff2;
+    border: 1px solid #dbdce0;
+}
+
+#nav_bar_left {
+    width: 480px;
+    float: left;
+    height: 46px;
+}
+
+#nav_button {
+    float: left;
+    width: 50px;
+    height: 46px;
+    line-height: 46px;
+    padding: 0;
+    margin: 0 0 0 10px;
+}
+
+#nav_bar_search {
+    float: right;
+    margin: 12px 12px 0 10px;
+    height: 24px;
+    line-height: 24px;
+}
+
+#search_input {
+    float: left;
+    height: 24px;
+    margin: 0 5px 0 0;
+}
+
+#search_submit {
+    float: right;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+}
+
+#nav_new_post {
+    float: right;
+    width: 95px;
+    height: 44px;
+    margin: 1px 0 1px 5px;
+    background-color: #2d64b3;
+    color: white;
+    text-align: center;
+    border-radius: 2px;
+    line-height: 44px;
+    font-size: 24px;
+}
+
+/* 帖子列表 */
+
+#discuss_list {
+    margin: 0;
+    padding: 0;
+    height: 80px;
+    background-color: bisque;
+}
+
+.discuss {
+    margin: 0;
+    padding: 0;
+    height: 80px;
+    background-color: bisque;
+    border: 1px solid darkgray;
+}
+
+.thread_card_left {
+    float: left;
+    width: 500px;
+}
+
+.reply_number {
+    float: left;
+    width: 50px;
+    height: 30px;
+    line-height: 26px;
+    margin: 20px 20px 0 20px;
+    text-align: center;
+    color: #999;
+    background-color: aqua;
+}
+
+.thread_title {
+    position: relative;
+    width: 500px;
+    height: 30px;
+    font-size: 18px;
+}
+
+.thread_title a:hover {
+    color: #2d64b3;
+    text-decoration: underline;
+}
+
+.thread_summary {
+    position: relative;
+    font-size: 12px;
+    color: #666;
+    width: 500px;
+}
+
+.thread_card_right {
+    float: right;
+    margin: 20px 10px 0 0;
+}
+
+.author_name {
+    color: #999;
+    font-size: 12px;
+}
+
+.last_reply_name {
+    color: #999;
+    font-size: 12px;
+}
+
+.last_reply_time {
+    color: #999;
+    font-size: 12px;
+}

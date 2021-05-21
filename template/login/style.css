@@ -1,0 +1,46 @@
+div.main {
+    height: 320px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 328px;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+}
+
+div.main {
+    line-height: 56px;
+    padding: 50px 32px;
+    font-size: 18px;
+    color: #141414;
+    text-align: center;
+}
+
+input.text {
+    line-height: 32px;
+    width: 316px;
+    margin: 5px 0;
+}
+
+div.check {
+    text-align: left;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+input.login {
+    width: 316px;
+    height: 40px;
+    line-height: 40px;
+    margin: 10px 0;
+    background: #3F89EC;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 800;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+}
